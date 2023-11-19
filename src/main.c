@@ -29,7 +29,7 @@ int main()
     IAP_Init(
         &IAPx,
         &serial,
-        0x8002000);
+        0x8003000);
 
     if (KEY_IsPressed(&key1) == 1) {
         IAP_WriteFlag(&IAPx, IAP_COMMAND_WAITING);
