@@ -1,0 +1,3 @@
+[submodule "hal/STM32F10x_ABLib"]
+	path = hal/STM32F10x_ABLib
+	url = git@github.com:rushairer/STM32F10x_ABLib.git
